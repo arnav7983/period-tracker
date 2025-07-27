@@ -20,7 +20,7 @@ export function Dashboard() {
 
       <div className="container mx-auto px-4 py-6">
         <div className="mb-8">
-          <h1 className="text-3xl font-bold text-primary mb-2">Welcome back!</h1>
+          <h1 className="text-3xl font-bold text-primary mb-2">Welcome BABY ZII!</h1>
           <p className="text-muted-foreground">Track your cycle and stay connected with your partner</p>
         </div>
 
