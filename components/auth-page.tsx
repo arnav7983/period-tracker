@@ -25,7 +25,7 @@ export function AuthPage() {
       localStorage.setItem("demo-user", "true")
       toast({
         title: "Demo Mode Activated",
-        description: "Exploring CycleSync with sample data. Firebase not required.",
+        description: "Exploring KritiTracker with sample data. Firebase not required.",
       })
       // Reload to trigger demo mode
       setTimeout(() => window.location.reload(), 1000)
@@ -50,7 +50,7 @@ export function AuthPage() {
 
       toast({
         title: "Welcome back!",
-        description: "Successfully signed in to CycleSync.",
+        description: "Successfully signed in to KritiTracker.",
       })
     } catch (error: any) {
       console.error("Sign in error:", error)
@@ -81,7 +81,7 @@ export function AuthPage() {
 
       toast({
         title: "Account created!",
-        description: "Welcome to CycleSync. Let's start tracking together.",
+        description: "Welcome to KritiTracker. Let's start tracking together.",
       })
     } catch (error: any) {
       console.error("Sign up error:", error)
@@ -132,7 +132,7 @@ export function AuthPage() {
         <div className="text-center mb-8">
           <div className="flex items-center justify-center mb-4">
             <Heart className="h-8 w-8 text-primary mr-2" />
-            <h1 className="text-3xl font-bold text-primary">CycleSync</h1>
+            <h1 className="text-3xl font-bold text-primary">KritiTracker</h1>
           </div>
           <p className="text-muted-foreground">Track your cycle together</p>
         </div>
@@ -161,7 +161,7 @@ export function AuthPage() {
             <Card>
               <CardHeader>
                 <CardTitle>Welcome back</CardTitle>
-                <CardDescription>Sign in to your CycleSync account</CardDescription>
+                <CardDescription>Sign in to your KritiTracker account</CardDescription>
               </CardHeader>
               <CardContent className="space-y-4">
                 <form onSubmit={handleSignIn} className="space-y-4">
@@ -214,7 +214,7 @@ export function AuthPage() {
             <Card>
               <CardHeader>
                 <CardTitle>Create account</CardTitle>
-                <CardDescription>Join CycleSync and start tracking together</CardDescription>
+                <CardDescription>Join KritiTracker and start tracking together</CardDescription>
               </CardHeader>
               <CardContent className="space-y-4">
                 <form onSubmit={handleSignUp} className="space-y-4">
